@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #558;
+}
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 50px 250px;
+}
+.container>p {
+    color: #f4f4f4;
+}
+.form-wrap {
+    background: #f4f4f4;
+    padding: 30px;
+    justify-content: center;
+}
+
+.checkboxes-redios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+}
+input, textarea, select  {
+    padding: 10px;
+    margin-bottom: 13px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+}
+
+.checkboxes-redios input {
+    width: 10%;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+
+.form-header p{
+    font-size: smaller;
+    color: purple;
+}
+.form-footer p{
+    font-size: smaller;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #585;
+    color: white;
+}
+button:focus {
+    background-color: #7a7;
+}
+span.login-link a {
+    color: #5a5;
+    text-decoration: none;
+}
+
+/* button:focus {
+    background-color: #7a7;
+} */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <div class="container">
+    <div class="form-wrap">
+      <div class="form-header">
+        <h1 id="title">FreecodeCamp Survey Form</h1>
+        <p id="description">It's free and only takes a minute</p>
+      </div>
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input type="number" id="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label">Age</label>
+          <input type="number" id="number" class="form-control" placeholder="Age">
+        </div>
+        <div class="dropdown">
+          <label for="dropdown">Role</label>
+          <select name="role" id="dropdown">
+            <option value="1">Role 1</option>
+            <option value="2">Role 2</option>
+            <option value="3">Role 3</option>
+          </select>
+        </div>
+        <div class="checkbox-group">
+          <label>What would you like to see improved?</label>
+          <div class="form-group checkboxes-redios">
+            <input type="radio" name="recommendation" value="definitely" id="definitely"> <label for="front-end">Front End</label>
+          </div> 
+          <div class="form-group checkboxes-redios">
+            <input type="radio" name="recommendation" value="maybe" id="maybe"><label for="maybe">Back End</label>
+          </div> 
+          <div class="form-group checkboxes-redios">
+            <input type="radio" name="recommendation" value="notsure" id="notsure"><label for="notsure">Challenges</label> 
+          </div>
+        </div>
+        <div class="checkbox-group">
+          <label>What would you like to see improved?</label>
+          <div class="form-group checkboxes-redios">
+            <input type="checkbox" name="favorite" value="front-end" id="front-end"> <label for="front-end">Front End</label>
+          </div> 
+          <div class="form-group checkboxes-redios">
+            <input type="checkbox" name="favorite" value="back-end"><label for="back-end">Back End</label>
+          </div> 
+          <div class="form-group checkboxes-redios">
+            <input type="checkbox" name="favorite" value="challenges"><label for="challenges">Challenges</label> 
+          </div>
+        </div>
+        <textarea name="comments" id="comments">comments</textarea>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
